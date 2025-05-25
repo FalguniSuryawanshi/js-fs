@@ -1,0 +1,46 @@
+// for of
+//  ["", "", ""]
+// [{}, {}, {}]
+
+const arr = [1, 2, 3, 4, 5]
+
+for (const num of arr) {
+    // console.log(num);
+    
+    
+}
+
+const greetings = "hello greeting"
+for (const greet of greetings) {
+    // console.log(`each wish is ${greet}`);
+    
+}
+
+// Map
+
+const map = new Map()
+
+map.set('IN', "India")
+map.set('Usa', "America")
+map.set('FR', "France")
+
+// console.log(map);
+
+for (const [key, value] of map) {
+    console.log(key,'=', value);
+    
+    
+}
+
+const MyObject = {
+    game1: 'game'
+    // game2: 'spiderman'
+
+}
+
+for (const [key, value] of MyObject) {
+    // console.log(key,value);
+    
+}
+//  it will not run due to myObject is not iteratable
+``
