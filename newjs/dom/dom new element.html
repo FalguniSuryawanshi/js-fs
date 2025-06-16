@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom fs series </title>
+</head>
+<body style="background-color: aquamarine; color: black;">
+    <div class="parent ">
+        
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednsday</div>
+        <div class="day">thursday</div>
+    </div>
+</body>
+<script>
+   const myparent =  document.querySelector('.parent')
+//    console.log(myparent);
+//    console.log(myparent.children);
+//    console.log(myparent.children[0].innerHTML);
+   
+   for (let index = 0; index < myparent.children.length; index++) {
+    //    console.log(myparent.children[index].innerHTML);
+
+    myparent.children[1].style.color = "green"
+    // console.log(myparent.firstElementChild);
+    // console.log(myparent.lastElementChild);
+    
+    const dayOne = document.querySelector('.day')
+    // console.log(dayOne);
+    // console.log(dayOne.parentElement);
+    // console.log(dayOne.nextElementSibling // );
+    console.log("NODES: ", myparent.childNodes);
+    
+    
+    
+       
+    
+   }
+   
+</script>
+</html>

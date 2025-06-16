@@ -1,0 +1,100 @@
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Bar */
+nav {
+    width: 100%;
+    background-color: #00796b;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Main Container */
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 2rem;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #004d40;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #00695c;
+    margin-top: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button Styling */
+button {
+    background-color: #00796b;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+/* Result Output */
+#result {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* BMI Guide */
+#weight\ guide {
+    background-color: #f1f1f1;
+    padding: 1rem;
+    margin-top: 20px;
+    border-radius: 8px;
+}
